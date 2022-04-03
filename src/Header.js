@@ -20,11 +20,9 @@ function Header() {
   return (
     <nav className="header">
       <Link to="/">
-        <img
+        <h3
           className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
-          alt=""
-        />
+        >Koomazon</h3>
       </Link>
 
       <div className="header__search">

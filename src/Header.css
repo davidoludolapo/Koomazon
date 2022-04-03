@@ -1,5 +1,6 @@
 .header{
-    background-color: #131921;
+    background-color: #333;
+    box-shadow: 1px 1px 3px;
     display: flex;
     align-items: center;
     position: sticky;
@@ -10,7 +11,9 @@
 .header__logo {
     width: 100px;
     object-fit: contain;
-    margin: 0 20px;
+    text-align: center;
+    color: white;
+    margin: 20px 20px;
     margin-top: 18px;
 }
 
@@ -58,6 +61,7 @@
     padding: 10px;
     border: none;
     width: 100%;
+    outline: none;
 }
 
 .header__searchIcon {
