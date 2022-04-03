@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Checkout from "./Checkout";
 import Login from "./Login";
-import Test from "./Test";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import { useEffect } from 'react'
@@ -37,7 +36,6 @@ function App() {
           <Route path="/" element= {<Home />} />
           <Route path="/checkout" element= {<Checkout />} />
           <Route path="/login" element={<Login/>}/>
-          <Route path="/test" element={<Test />}/>
       </Routes>
     </Router>
 
