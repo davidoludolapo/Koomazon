@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
+import Search from "./Search";
+import PersonIcon from '@material-ui/icons/Person';
 
-function Header() {
+function Header({ handleSearchNote }) {
   const [{basket, user}, dispatch] = useStateValue()
 
   const handleAuthentication = () => {
@@ -26,11 +27,15 @@ function Header() {
       </Link>
 
       <div className="header__search">
-        <input type="text" className="header__searchInput" />
-        <SearchIcon className="header__searchIcon" />
+        <Search/>
       </div>
 
       <div className="header__nav">
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span className="header__optionLineTwo"><PersonIcon/></span>
+          </div>
+        </Link>
         <Link to={!user && '/login'} className="header__link">
           <div onClick={handleAuthentication} className="header__option">
             <span className="header__optionLineOne">Hello {!user ? 'Guest' : user.email}</span>

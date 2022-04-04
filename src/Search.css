@@ -1,0 +1,23 @@
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 50%;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    height: 22px !important;
+    background-color: rgb(172, 15, 10);
+    cursor: pointer;
+}
+
+.header__searchIcon:hover{
+    background-color: rgb(151, 10, 6);
+    transition: all 0.4s ease-in-out;
+
+}

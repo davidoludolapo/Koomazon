@@ -13,6 +13,12 @@
     z-index: 1;
 }
 
+.product:hover{
+    transform: scale(1.01);
+    transition: all 0.5s ease-in-out;
+    
+}
+
 .product__info{
     height: 100px;
     margin-bottom: 15px;
@@ -46,6 +52,7 @@
 
 .product > button:hover {
     background-color: rgba(51, 51, 51, 0.596);
+    transition: all 0.4s ease-in-out;
     color: white;
 
 }
