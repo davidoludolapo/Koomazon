@@ -7,7 +7,7 @@ import { auth } from "./firebase";
 import Search from "./Search";
 import PersonIcon from '@material-ui/icons/Person';
 
-function Header({ handleSearchNote }) {
+function Header( ) {
   const [{basket, user}, dispatch] = useStateValue()
 
   const handleAuthentication = () => {
@@ -52,7 +52,7 @@ function Header({ handleSearchNote }) {
         <Link to="/checkout" className="header__link">
           <div className="header__optionBasket">
             <ShoppingCart/>
-            <span className="header__optionLineTwo header__baskeCount">{basket?.length}</span>
+            <span className="header__optionLineTwo header__baskeCount">{basket.length}</span>
           </div>
         </Link>
       </div>

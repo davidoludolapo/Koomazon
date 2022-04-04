@@ -20,3 +20,11 @@
     margin-bottom: -150px;
    
 }
+
+@media screen and (max-width: 960px){
+    .carousel {
+       display: none;
+
+    }
+
+}

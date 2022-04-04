@@ -21,7 +21,7 @@ function Checkout() {
 
         {basket.length === 0 ? (
           <div>
-          <h3>Hello {user.email}</h3>
+          <h3>Hello {user?.email}</h3>
             <h2>Your Basket is empty</h2>
             <p>You currently do not have any items in your basket. </p>
           </div>
