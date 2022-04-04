@@ -49,11 +49,7 @@ function Login() {
     <>
       <div className="login">
         <Link to="/">
-          <img
-            className="login__logo"
-            src="https://www.pngfind.com/pngs/m/56-565024_amazon-logo-png-amazon-png-transparent-png.png"
-            alt=""
-          />
+          <h1 className="login__logo">Koomazon</h1>
         </Link>
 
         <div className="login__container">
@@ -67,7 +63,7 @@ function Login() {
 
                 <button type="submit" onClick={signIn} className="login__signInButton">Sign In</button>
             </form>
-            <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+            <p>By continuing, you agree to Koomazons Conditions of Use and Privacy Notice.</p>
             <button onClick={register} className="login__registerButton">Create your Amazon Account</button>
         </div>
       </div>

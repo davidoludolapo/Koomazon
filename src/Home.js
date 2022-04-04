@@ -42,7 +42,7 @@ function Home() {
         <Product
           id= "2"
           title="Infinix Hot 11 Play (X688B), 6.82'' HD + IPS Premium Display, 4GB RAM + 128GB ROM, 6000 MAh"
-          price={11.96}
+          price={40000}
           rating={3}
           image="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/04/133749/1.jpg?6418"
         />
@@ -82,30 +82,30 @@ function Home() {
         />
         <Product
           id= "7"
-          title="Game of thrones"
-          price={11.96}
-          rating={3}
-          image="https://images-na.ssl-images-amazon.com/images/I/81q1AybR-ZL.jpg"
+          title="Apple IPad Pro 12.'' M1 (2021 Model) With Wi-Fi+Cellular - 128GB - Space Gray"
+          price={650000}
+          rating={5}
+          image="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/85/9832701/1.jpg?5663"
         />
         <Product
           id= "8"
-          title="Game of thrones"
-          price={11.96}
-          rating={3}
-          image="https://images-na.ssl-images-amazon.com/images/I/81q1AybR-ZL.jpg"
+          title="Maxim Ultra Slim Tablet - 10.1'' - 4GB - 64GB - Dual Sim Android 10.0 Tablet"
+          price={85000}
+          rating={5}
+          image="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/J/I/160323_1637970328.jpg"
         />
         </div>
         <div className="home__row">
         <Product
           id= "9"
           title="Midea 3.1 Cu. Ft. Compact Refrigerator, WHD-113FSS1 - Stainless Steel"
-          price={11.96}
+          price={140000}
           rating={3}
           image="https://m.media-amazon.com/images/I/61gf8uBCv6L._AC_SX679_.jpg"
         />
         <Product
           id= "10"
-          title="Game of Rock 43'' Full Hd Led Tv"
+          title="Midea 3.1 Cu. Ft. Compact Refrigerator, WHD-113FSS1 - Stainless Steel"
           price={90000}
           rating={5}
           image="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/K/E/161417_1621579881.jpg"

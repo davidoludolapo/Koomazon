@@ -9,11 +9,11 @@
 .checkout__title {
     margin-right: 10px;
     padding: 10px;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
 }
 
 
-.checkout__left, .checkout__ad{
+.checkout__left .checkout__ad{
     width: 100%;
     height: 100px;
     margin-bottom: 10px;

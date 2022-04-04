@@ -17,6 +17,9 @@
     margin-top: 18px;
 }
 
+
+
+
 .header__optionBasket {
     display: flex;
     align-items: center;
@@ -62,10 +65,13 @@
     border: none;
     width: 100%;
     outline: none;
+    border-radius: 5px 0 0 5px;
 }
 
 .header__searchIcon {
     padding: 5px;
+    color: white;
+    border-radius: 0 5px 5px 0;
     height: 22px !important;
-    background-color: #cd9042;
+    background-color: rgb(161, 7, 2);
 }

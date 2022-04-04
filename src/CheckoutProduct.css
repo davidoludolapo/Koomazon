@@ -2,6 +2,9 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    background: white;
+    border-radius: 5px;
+    padding: 20px 10px;
 }
 
 .checkoutProduct__title{
@@ -16,15 +19,19 @@
 
 .checkoutProduct__info {
     padding-left: 20px;
+    
 }
 
 .checkoutProduct__info > button {
-    background-color: #f0c14b;
-    border: 1px solid;
-    border-color: #a88734;
-    color: #111;
+    background-color: #333;
+    color: white;
+    padding: 16px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .checkoutProduct__rating {
     display: flex;
+    margin-bottom: 20px;
 }
